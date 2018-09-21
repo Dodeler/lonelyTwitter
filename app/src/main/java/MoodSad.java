@@ -6,7 +6,7 @@ public class MoodSad extends LonelyTwitterMood {
         this.date = date;
     }
     public MoodSad(){
-        this.date = Date.Date();
+        this.date = new Date();
     }
     public String getMood(){
         return this.mood;

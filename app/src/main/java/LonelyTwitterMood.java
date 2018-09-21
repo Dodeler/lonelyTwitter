@@ -1,7 +1,7 @@
 import java.util.Date;
 
 public abstract class LonelyTwitterMood {
-    private Date date;
+    protected Date date;
 
     public Date getDate(){
         return this.date;
